@@ -2,6 +2,7 @@
 
 Muchos lectores con buen ojo encontraron errores en este tutorial, y algunos incluso mandaron las correcciones. ¡Gracias!
 
+| Quién | Por qué |
 |------|--------|
 | Neeraj Rawat | El código no era portable a FreeBSD. Gracias a Neeraj cambié a GNU autotools e hice varios cambios para ser compatible con FreeBSD |
 | David Terret | `bb_readlink()` estaba devolviendo la cantidad de bytes leídos en lugar de 0 |
